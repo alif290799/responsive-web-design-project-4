@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { gsap } from "gsap";
 import Hamburger from "./Hamburger";
 import { navlists } from "../arrays";
-import { arrow6 } from "../imageImports";
 
 const Navbar = () => {
     const location = useLocation();
@@ -90,7 +89,7 @@ const Navbar = () => {
                 <button className="text-orange-200 sm:text-xs md:text-base lg:text-base">
                     Sign In
                 </button>
-                <img src={arrow6} alt="arrow" className="sm:w-4 lg:w-6" />
+                <img alt="arrow" className="sm:w-4 lg:w-6" />
             </div>
             <div className="flex sm:hidden">
                 <Hamburger />
